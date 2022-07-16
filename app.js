@@ -89,10 +89,10 @@ const menu = [
   // Button 
   const createButtons = () => {
     let allButtons = `
-    <button id="all" class="btn btn-outline-dark btn-item" type="button" onClick="listAllFoods()" >All</button>
-    <button id="all" class="btn btn-outline-dark btn-item" type="button" onClick="listKoreanFoods()">Korea</button>
-    <button id="all" class="btn btn-outline-dark btn-item" type="button" onClick="listJapanFoods()">Japan</button>
-    <button id="all" class="btn btn-outline-dark btn-item" type="button" onClick="listChinaFoods()">China</button>`
+    <button class="btn btn-outline-dark btn-item" type="button" onClick="listAllFoods()" >All</button>
+    <button class="btn btn-outline-dark btn-item" type="button" onClick="listKoreanFoods()">Korea</button>
+    <button class="btn btn-outline-dark btn-item" type="button" onClick="listJapanFoods()">Japan</button>
+    <button class="btn btn-outline-dark btn-item" type="button" onClick="listChinaFoods()">China</button>`
     buttonDOM.innerHTML = allButtons;
   }
 
